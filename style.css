@@ -1,0 +1,367 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+	font-family: 'B612 Mono', monospace;
+}
+
+nav a:hover {
+	color: #B22222;
+	text-decoration: underline;
+}
+
+main {
+	
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #B22222;
+}
+
+.produtos li:active {
+	border-color: gold;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.main-contato {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 18px;
+	margin: 10px 0 10px;
+}
+
+fieldset {
+	margin: 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 40px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: gold;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #B22222;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+/* css da página inicial */
+
+.banner {
+	width: 100%;
+}
+
+.titulo-principal,
+.titulo-beneficios {
+	text-align: center;
+	font-size: 2em; /* mutiplica pelo tamanho padrão utilizado pelo navegador */
+	margin: 1em 0 2em 0	;
+	clear: left; /* para limpar do float */
+	font-family: 'Pacifico', cursive;
+	/*text-shadow: 2px 2px red; cria uma sombra para o texto */
+}
+
+/* .titulo-principal::first-letter {    muda elementos da primeira letra do texto selecionado
+	color: yellow; */
+/*pode-se usar também first-line para modificar elementos na primeira linha */
+
+/*.titulo-principal:before {    permite colocar elementos no início e no final do texto sem estar no html
+	content: "[";
+}
+
+.titulo-principal:after {
+	content: "";
+} */
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;	
+}
+
+.principal-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em; /* cria a margem para baixo proporcional ao tamanho da fonte */
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal strong:hover {
+	color: gold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left; /*permite que os outros elementos da pagina se posicionem ao redor dele */
+	margin: 0 20px 20px 0;
+	border-radius: 15px;
+}
+
+.principal p,
+ul .itens {
+	font-family: 'Fira Sans', sans-serif;
+	margin: 1.2em 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	/*background: linear-gradient(90deg, orange,blue); propriedade que permite colocar degradê de quantas cores quisermos e na angulação que quisermos.*/
+	/* podemos indicar também o momento em que iniciará o degradê, por exemplo orange 50% (quer dizer que orange irá ocupar 50% da pagina até a próxima cor) */
+	/*background: radial-gradient(); aplica o degradê de forma circular */
+	background: linear-gradient(#FEFEFE,#888888);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: auto;
+}
+
+.mapa p {
+	margin: 0 0 2em 0;
+	text-align: center;
+}
+
+
+.beneficios {
+	padding: 3em;
+	background: #888888;
+	/*box-shadow: inset 0 0 30px black; faz uma sombra interna */
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.3em;
+}
+
+.itens:before {
+	content: "🟉 ";
+}
+
+/* exemplo de pseudo classe, pega o primeiro item de uma classe com varios itens e modifica apenas ele
+.itens:first-child {
+	font-weight: bold;
+} se quiser pegar o último elemento utiliza-se last-child
+para selecionar um numero n da lista utiliza-se nth-child() ex nth-child(4) pega o quarto elemento
+nth-child(2n) pega todos os números pares da lista */
+
+.itens:nth-child(2n) {
+	color: #B22222;
+}
+
+.itens:hover {
+	color: gold;
+}
+
+.imagem-beneficios {
+	width: 60%;
+	border-radius: 15px;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 15px black; /*x, y, blur, expansão da borda, cor */
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.6;
+}
+
+.video {
+	width: 560px;
+	margin: 5em auto 2em;
+	box-shadow: 10px 10px 10px black, -10px 10px 10px black;
+}
+
+/* Seletores avançados 
+
+Exemplos:
+
+main > p - acessa todos os os p filhos diretos ou não da main
+img + p - acessa o primeiro irmão de determinado elemento, neste caso, o primeiro p após o img
+img ~ p - acessa todos os irmãos do elemento, não só o primeiro
+main p:not(#missao) - acessa todos os p dentro da main exceto o p que tem id missao */
+
+
+/* deixando o site responsivo para mobile */
+
+/*para telas de até 480px quero entregar um estilo diferente*/
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal-conteudo, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .main-contato {
+        width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+	
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+
+	.produtos li {
+		display: block;
+		width: auto;
+	}
+
+	label, legend, fieldset, .enviar {
+		text-align: center;
+	}
+
+	.input-padrao {
+		margin: 10px auto;
+		width: 80%;
+	}
+
+
+	table {
+		margin: 20px auto 40px;
+
+	}
+
+}
+
+
+	
