@@ -1,2 +1,2 @@
 # barbeariaAlura
-Projeto desenvolvido nas aulas de html e css do curso Alura.
+Projeto desenvolvido em um dos cursos de HTML e CSS da Alura.
